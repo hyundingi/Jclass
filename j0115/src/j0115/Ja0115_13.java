@@ -71,7 +71,7 @@ public class Ja0115_13 {
 			System.out.print(lotto[i]+"\t");
 		}
 		System.out.println();
-		System.out.print("보너스 번호 : "+lotto[lotto.length]);
+		System.out.println("보너스 번호 : "+lotto[lotto.length-1]);
 		
 		System.out.println("[내가 입력한 번호]");
 		for (i=0;i<input.length-1;i++) {
@@ -81,7 +81,7 @@ public class Ja0115_13 {
 		
 		System.out.println("[맞춘 번호]");
 		for (i=0;i<count;i++) {
-			System.out.print(answer[i]+"\t");
+			System.out.print(answer[i]+"\n");
 		}
 		
 		System.out.println("맞춘 개수 : "+count);
