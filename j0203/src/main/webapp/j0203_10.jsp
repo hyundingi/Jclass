@@ -19,7 +19,7 @@ if (cookies != null){
 }
 %>
 <hr>
-<form action="./cookSave.jsp" method="get">
+<form action="./cookSave.jsp" method="post">
 <label>쿠키이름</label>
 <input type="text" name="cookN"><br/>
 <label>쿠키값</label>
